@@ -17,12 +17,13 @@ go get -u github.com/codenoid/string-to-hex-color
 package main
 
 import (
-    "fmt"
-    "github.com/codenoid/string-to-hex-color"
+	"fmt"
+
+	shex "github.com/codenoid/string-to-hex-color"
 )
 
 func main() {
-    fmt.Println(strtohexcolor.GenerateColor("Let's write Stable Software"))
+	fmt.Println(shex.GenerateColor("Let's write Stable Software"))
 }
 ```
 
