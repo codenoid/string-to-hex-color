@@ -23,7 +23,8 @@ import (
 )
 
 func main() {
-	fmt.Println(shex.GenerateColor("Let's write Stable Software"))
+	fmt.Println(shex.GenerateColor("Let's write Stable Software")) // #B25320
+	fmt.Println(shex.GenerateColor("Let's write Stable Software")) // #B25320
 }
 ```
 
